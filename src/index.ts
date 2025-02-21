@@ -5,7 +5,7 @@ export default {
     };
 
     const response = await env.AI.run(
-      "@cf/runwayml/stable-diffusion-v1-5-inpainting",
+      "@cf/runwayml/stable-diffusion-v1-5-img2img",
       inputs,
     );
 
