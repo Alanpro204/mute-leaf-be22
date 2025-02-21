@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "Raul castro wearing a tanga",
+      prompt: "Raul castro wearing a tanga is fighting vs Fidel Castro with a darth vader suit",
     };
 
     const response = await env.AI.run(
