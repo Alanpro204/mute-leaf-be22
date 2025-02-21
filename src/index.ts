@@ -5,7 +5,7 @@ export default {
     };
 
     const response = await env.AI.run(
-      "@cf/black-forest-labs/flux-1-schnell",
+      "@cf/runwayml/stable-diffusion-v1-5-inpainting",
       inputs,
     );
 
